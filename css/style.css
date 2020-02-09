@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    font-style: sans-serif;
+    color: white;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.upper {
+    width: 400px;
+    margin: 0 auto;
+}
+#mytext{
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.ims {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ims img {
+    margin: 20px;
+}
+
+
+body {
+    background-image: Linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+
+        Linear-gradient(127deg, black, black 70.71%),
+
+        Linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+
+}
+
+.Bimage {
+    background-image: url("./res/bg.jpg");
+
+}
+
+.topsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url("../res/bg.jpg");
+    background-size: contain;
+
+}
+
+.txt {
+    background-color: gainsboro;
+}
+
+.title {
+    text-decoration-style: wavy;
+    color: black;
+    text-align: center;
+    text-align-last: center;
+
+}
